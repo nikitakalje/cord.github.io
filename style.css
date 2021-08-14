@@ -164,6 +164,7 @@ header ul li a:hover{
 	color: #111;
 	margin-top: 50px;
 
+
 }
 .heading h2
 {
@@ -216,7 +217,7 @@ img
 {
 	background: #00BFFF;
 	background: white;
-	height: 1400px;
+	height: 1600px;
 }
 .btn1
 {
@@ -258,6 +259,7 @@ img
 	background: gray;
 	background-color: rgba(255, 255, 255, 0.5);
 	background: #F0F0F0;
+	height: 1600px;
 }
 /* makes everything vertical*/
 .about .content
@@ -266,6 +268,9 @@ img
 	justify-content: center;
 	flex-wrap: wrap;
 	flex-direction: row;
+	margin-top: 40px;
+	margin-bottom: 60px;
+
 
 }
 .about .content .servicesBx
@@ -278,11 +283,13 @@ img
 	/*color: #fff;*/
 	color: #FFF8DC;
 	max-width: 250px;
+
 	margin: 20px;
 	text-align: center;
 	transition: 0.5s;
 
 	height: 250px;
+	color: black;
 }
 /*makes mouse hover over boxes*/
 .about .content .servicesBx:hover
@@ -290,10 +297,12 @@ img
 	background: #2196f3;
 	background: #B5DEA4;
 }
-.resume .content .servicesBx img
+.about .content .servicesBx img
 {
 	/*max-width: 80px;*/
-	max-width: 300px;
+	
+	max-width: 200px;
+	max-height: 180px;
 	/*max-height: 500px;
 	/*makes the image inverted colors- the icons*/
 	/*filter: invert(1);*/
@@ -311,6 +320,8 @@ img
 	justify-content: center;
 	flex-wrap: wrap;
 	flex-direction: row;
+	margin: 20px;
+	margin-bottom: 40px;
 }
 .resume .content .servicesBx
 {
@@ -325,7 +336,7 @@ img
 	margin: 20px;
 	text-align: center;
 	transition: 0.5s;
-
+	color: black;
 	height: 250px;
 }
 /*makes mouse hover over boxes*/
@@ -338,7 +349,7 @@ img
 {
 	/*max-width: 80px;*/
 	max-width: 200px;
-	max-height: 250px;
+	max-height: 180px;
 	/*max-height: 500px;
 	/*makes the image inverted colors- the icons*/
 	/*filter: invert(1);*/
